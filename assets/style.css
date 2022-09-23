@@ -27,7 +27,7 @@ h1 {
 .content {
     display: block;
     /* background-image: linear-gradient(red, blue); */
-
+    /* width: 90%; */
     padding: 2%;
     margin: 2%;
 }
@@ -40,6 +40,9 @@ h1 {
     max-width: 25%;
     border: #264653 dotted 5px;
     padding: 2%;
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px; */
 }
 
 .card_header {
@@ -52,4 +55,9 @@ h1 {
     align-items: center;
     font-size: 24px;
     font-weight: bolder;
+    background-color: #264653;
+}
+
+.card_content {
+    display: block;
 }
