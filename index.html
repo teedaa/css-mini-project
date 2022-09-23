@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <h1>Code Snippet Cheatsheet</h1>
+        <h1>Code Snippet Cheatsheet I want to die. </h1>
         <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
             to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
     </header>
@@ -24,16 +24,17 @@
             <div class="card_content">
 
                 <h4 class="card_header">Flexbox Row</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi? Nostrum ut et quidem
-                    incidunt porro nobis cumque aut corrupti sint repudiandae commodi accusamus, illo vero, neque
-                    repellendus consectetur. Nihil.</p>
+                <p>Use these three properties to create a Flexbox row layout.</p>
                 <div class="snippet">
                     <code>
-                        .row {
-                            display: flex;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
+                        <pre>
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+                        </pre>
+
                     </code>
 
                 </div>
@@ -43,17 +44,16 @@
         <section class="card">
             <div class="card_content">
 
-                <h4 class="card_header">Flexbox Row</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi? Nostrum ut et quidem
-                    incidunt porro nobis cumque aut corrupti sint repudiandae commodi accusamus, illo vero, neque
-                    repellendus consectetur. Nihil.</p>
+                <h4 class="card_header">Flexbox Column</h4>
+                <p>Use this to create a Flexbox column layout.</p>
                 <div class="snippet">
                     <code>
-                        .row {
-                            display: flex;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
+                        <pre>
+.column {
+    display: flex;
+    flex-direction: column;
+}
+                    </pre>
                     </code>
 
                 </div>
@@ -63,17 +63,18 @@
         <section class="card">
             <div class="card_content">
 
-                <h4 class="card_header">Flexbox Row</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi? Nostrum ut et quidem
-                    incidunt porro nobis cumque aut corrupti sint repudiandae commodi accusamus, illo vero, neque
-                    repellendus consectetur. Nihil.</p>
+                <h4 class="card_header">CSS Grid Layout</h4>
+                <p>Build a 12-column layout using CSS grid.</p>
                 <div class="snippet">
                     <code>
-                        .row {
-                            display: flex;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
+                        <pre>
+.grid {
+   display: grid;
+    width: 100%;
+    grid-template-columns: 
+    repeat(12, 1fr);
+}
+                        </pre>
                     </code>
 
                 </div>
@@ -83,17 +84,16 @@
         <section class="card">
             <div class="card_content">
 
-                <h4 class="card_header">Flexbox Row</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi? Nostrum ut et quidem
-                    incidunt porro nobis cumque aut corrupti sint repudiandae commodi accusamus, illo vero, neque
-                    repellendus consectetur. Nihil.</p>
+                <h4 class="card_header">Linear Gradients</h4>
+                <p>This will create a background linear gradient from top to bottom.</p>
                 <div class="snippet">
                     <code>
-                        .row {
-                            display: flex;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
+                        <pre>
+.linear-gradient-background {
+    background-image: linear-gradient 
+    (#E76F51, #F4A261);        
+}
+                        </pre>
                     </code>
 
                 </div>
@@ -103,19 +103,24 @@
         <section class="card">
             <div class="card_content">
 
-                <h4 class="card_header">Flexbox Row</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi? Nostrum ut et quidem
-                    incidunt porro nobis cumque aut corrupti sint repudiandae commodi accusamus, illo vero, neque
-                    repellendus consectetur. Nihil.</p>
+                <h4 class="card_header">Box Transition Glow</h4>
+                <p>Use transition and box shadows to glow on hover.</p>
                 <div class="snippet">
                     <code>
-                        .row {
-                            display: flex;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
+                        <pre>
+.code-card .card-header {
+    border-radius: 8px;
+   transition: all 0.5s ease-in-out;
+}
+                            
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+(#E9C46A), 0 0 15px
+(#E76F51);
+}
+                        </pre>
                     </code>
-
                 </div>
             </div>
 
@@ -123,17 +128,16 @@
         <section class="card">
             <div class="card_content">
 
-                <h4 class="card_header">Flexbox Row</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi? Nostrum ut et quidem
-                    incidunt porro nobis cumque aut corrupti sint repudiandae commodi accusamus, illo vero, neque
-                    repellendus consectetur. Nihil.</p>
+                <h4 class="card_header">Overlay Card on Title</h4>
+                <p>Use the position properties and negative margins to raise elements higher than their natural starting point.</p>
                 <div class="snippet">
                     <code>
-                        .row {
-                            display: flex;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
+                        <pre>
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+                        </pre>
                     </code>
 
                 </div>
@@ -141,7 +145,9 @@
 
         </section>
     </div>
-
+<footer>
+    <h3>Made with frustration 🤬 and CSS.</h3>
+</footer>
 </body>
 
 </html>

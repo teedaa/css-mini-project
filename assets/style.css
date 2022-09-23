@@ -14,6 +14,10 @@
     --BGDarker: #E76F51;
 }
 
+body {
+    background-color: var(--BGMain);
+}
+
 header {
     display: block;
     text-align: center;
@@ -25,11 +29,15 @@ h1 {
 }
 
 .content {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     /* background-image: linear-gradient(red, blue); */
     /* width: 90%; */
     padding: 2%;
     margin: 2%;
+    
+    
 }
 
 .snippet {
@@ -38,17 +46,18 @@ h1 {
 
 .card {
     max-width: 30%;
-    border: #264653 dotted 5px;
+    border: #E9C46A dotted 5px;
     padding: 2%;
     display: inline-flex;
     flex-direction: row;
     margin: 20px;
+    
 }
 
 .card_header {
     position: relative;
     top: -45px;
-    left: 10%;
+    left: 5%;
     /* margin-top: -40px; */
     border: #2A9D8F solid 5px;
     width: 90%;
@@ -61,3 +70,8 @@ h1 {
 .card_content {
     display: block;
 }
+
+footer{
+    text-align: center;
+}
+
