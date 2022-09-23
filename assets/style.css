@@ -37,12 +37,12 @@ h1 {
 }
 
 .card {
-    max-width: 25%;
+    max-width: 30%;
     border: #264653 dotted 5px;
     padding: 2%;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    /* margin: 20px; */
+    margin: 20px;
 }
 
 .card_header {
